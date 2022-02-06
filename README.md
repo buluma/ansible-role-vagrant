@@ -4,7 +4,7 @@ Install vagrant on your system.
 
 |GitHub|GitLab|Quality|Downloads|Version|
 |------|------|-------|---------|-------|
-|[![github](https://github.com/buluma/ansible-role-vagrant/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-vagrant/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-vagrant/badges/main/pipeline.svg)](https://gitlab.com/buluma/ansible-role-vagrant)|[![quality](https://img.shields.io/ansible/quality/)](https://galaxy.ansible.com/buluma/vagrant)|[![downloads](https://img.shields.io/ansible/role/d/)](https://galaxy.ansible.com/buluma/vagrant)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-vagrant.svg)](https://github.com/buluma/ansible-role-vagrant/releases/)|
+|[![github](https://github.com/buluma/ansible-role-vagrant/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-vagrant/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-vagrant/badges/main/pipeline.svg)](https://gitlab.com/buluma/ansible-role-vagrant)|[![quality](https://img.shields.io/ansible/quality/57944)](https://galaxy.ansible.com/buluma/vagrant)|[![downloads](https://img.shields.io/ansible/role/d/57944)](https://galaxy.ansible.com/buluma/vagrant)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-vagrant.svg)](https://github.com/buluma/ansible-role-vagrant/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
