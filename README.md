@@ -1,10 +1,10 @@
-# [vagrant](#vagrant)
+# [Ansible role vagrant](#vagrant)
 
 Install vagrant on your system.
 
-|GitHub|GitLab|Quality|Downloads|Version|Issues|Pull Requests|
-|------|------|-------|---------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-vagrant/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-vagrant/actions)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-vagrant/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-vagrant)|[![quality](https://img.shields.io/ansible/quality/57944)](https://galaxy.ansible.com/buluma/vagrant)|[![downloads](https://img.shields.io/ansible/role/d/57944)](https://galaxy.ansible.com/buluma/vagrant)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-vagrant.svg)](https://github.com/buluma/ansible-role-vagrant/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-vagrant.svg)](https://github.com/buluma/ansible-role-vagrant/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-vagrant.svg)](https://github.com/buluma/ansible-role-vagrant/pulls/)|
+|GitHub|GitLab|Downloads|Version|Issues|Pull Requests|
+|------|------|-------|-------|------|-------------|
+|[![github](https://github.com/buluma/ansible-role-vagrant/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-vagrant/actions)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-vagrant/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-vagrant)|[![downloads](https://img.shields.io/ansible/role/d/4875)](https://galaxy.ansible.com/buluma/vagrant)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-vagrant.svg)](https://github.com/buluma/ansible-role-vagrant/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-vagrant.svg)](https://github.com/buluma/ansible-role-vagrant/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-vagrant.svg)](https://github.com/buluma/ansible-role-vagrant/pulls/)|
 
 ## [Example Playbook](#example-playbook)
 
