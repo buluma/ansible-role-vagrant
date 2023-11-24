@@ -49,7 +49,7 @@ The default values for the variables are set in [`defaults/main.yml`](https://gi
 # defaults file for vagrant
 
 # The version of vagrant to install. See https://releases.hashicorp.com/vagrant/ .
-vagrant_version: "2.3.6"
+vagrant_version: "2.2.19"
 
 # The location to unpack the .tar.xz, if applicable.
 vagrant_unarchive_dest: /usr/local/bin
@@ -85,7 +85,7 @@ This role has been tested on these [container images](https://hub.docker.com/u/b
 
 |container|tags|
 |---------|----|
-|[EL](https://hub.docker.com/repository/docker/buluma/enterpriselinux/general)|8|
+|[EL](https://hub.docker.com/repository/docker/buluma/enterpriselinux/general)|8, 9|
 |[Debian](https://hub.docker.com/repository/docker/buluma/debian/general)|all|
 |[Fedora](https://hub.docker.com/repository/docker/buluma/fedora/general)|all|
 |[opensuse](https://hub.docker.com/repository/docker/buluma/opensuse/general)|all|

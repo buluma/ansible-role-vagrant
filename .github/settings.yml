@@ -5,4 +5,4 @@
 repository:
   description: Install vagrant on your system.
   homepage: https://buluma.github.io/
-  topics: vagrant, ansible, molecule, tox, playbook
+  topics: vagrant, development, ansible, molecule, tox, playbook
