@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-vagrant/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-vagrant/compare/1.0.8...HEAD)
+
+**Closed issues:**
+
+- Update buluma/todo-to-issue-action@v1.0.1 @buluma [\#18](https://github.com/buluma/ansible-role-vagrant/issues/18)
+
 ## [1.0.8](https://github.com/buluma/ansible-role-vagrant/tree/1.0.8) (2023-12-25)
 
 [Full Changelog](https://github.com/buluma/ansible-role-vagrant/compare/1.0.7...1.0.8)
