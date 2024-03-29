@@ -23,7 +23,9 @@ galaxy_info:
         - all
     - name: Ubuntu
       versions:
-        - all
+        - bionic
+        - focal
+        - jammy
 
   galaxy_tags:
     - vagrant
