@@ -6,15 +6,22 @@ galaxy_info:
   company: ShadowNet
   min_ansible_version: '2.12'
   platforms:
-    - name: EL
-      versions: ['8', '9']
-    - name: Debian
-      versions: [all]
-    - name: Fedora
-      versions: ['38', '39', '40']
-    - name: opensuse
-      versions: [all]
-    - name: Ubuntu
-      versions: [bionic, focal, jammy, noble]
-  galaxy_tags: [vagrant, development]
+  - name: EL
+    versions:
+    - all
+  - name: Debian
+    versions:
+    - all
+  - name: Fedora
+    versions:
+    - all
+  - name: opensuse
+    versions:
+    - all
+  - name: Ubuntu
+    versions:
+    - all
+  galaxy_tags:
+  - vagrant
+  - development
 dependencies: []
