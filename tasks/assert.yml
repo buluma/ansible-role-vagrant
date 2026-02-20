@@ -1,5 +1,4 @@
 ---
-
 - name: assert | Test vagrant_version
   ansible.builtin.assert:
     that:
