@@ -11,31 +11,27 @@ Install vagrant on your system.
 This example is taken from [`molecule/default/converge.yml`](https://github.com/buluma/ansible-role-vagrant/blob/master/molecule/default/converge.yml) and is tested on each push, pull request and release.
 
 ```yaml
----
-- name: Converge
-  hosts: all
-  become: true
+- become: true
   gather_facts: true
-
+  hosts: all
+  name: Converge
   roles:
-    - role: buluma.vagrant
+  - role: buluma.vagrant
 ```
 
 The machine needs to be prepared. In CI this is done using [`molecule/default/prepare.yml`](https://github.com/buluma/ansible-role-vagrant/blob/master/molecule/default/prepare.yml):
 
 ```yaml
----
-- name: Prepare
-  hosts: all
-  become: true
+- become: true
   gather_facts: false
-
+  hosts: all
+  name: Prepare
   roles:
-    - role: buluma.bootstrap
-    - role: buluma.core_dependencies
-    - role: buluma.buildtools
-    - role: buluma.epel
-    - role: buluma.python_pip
+  - role: buluma.bootstrap
+  - role: buluma.core_dependencies
+  - role: buluma.buildtools
+  - role: buluma.epel
+  - role: buluma.python_pip
 ```
 
 Also see a [full explanation and example](https://buluma.github.io/how-to-use-these-roles.html) on how to use these roles.
@@ -45,14 +41,8 @@ Also see a [full explanation and example](https://buluma.github.io/how-to-use-th
 The default values for the variables are set in [`defaults/main.yml`](https://github.com/buluma/ansible-role-vagrant/blob/master/defaults/main.yml):
 
 ```yaml
----
-# defaults file for vagrant
-
-# The version of vagrant to install. See https://releases.hashicorp.com/vagrant/ .
-vagrant_version: "2.2.19"
-
-# The location to unpack the .tar.xz, if applicable.
 vagrant_unarchive_dest: /usr/local/bin
+vagrant_version: 2.2.19
 ```
 
 ## [Requirements](#requirements)

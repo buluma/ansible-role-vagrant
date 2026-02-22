@@ -1,10 +1,8 @@
----
-- name: Verify
-  hosts: all
-  become: true
+- become: true
   gather_facts: false
-
+  hosts: all
+  name: Verify
   tasks:
-    - name: Try vagrant
-      ansible.builtin.command:
-        cmd: vagrant --version
+  - ansible.builtin.command:
+      cmd: vagrant --version
+    name: Try vagrant

@@ -1,4 +1,4 @@
 ---
 exceptions:
-  - variation: alpine
-    reason: "Dependency not available: python_pip"
+  - reason: "Dependency not available: python_pip"
+    variation: alpine
