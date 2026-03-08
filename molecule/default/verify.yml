@@ -4,6 +4,6 @@
   hosts: all
   name: Verify
   tasks:
-  - ansible.builtin.command:
-      cmd: vagrant --version
-    name: Try vagrant
+    - ansible.builtin.command:
+        cmd: vagrant --version
+      name: Try vagrant
