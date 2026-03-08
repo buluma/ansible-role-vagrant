@@ -11,4 +11,4 @@ _vagrant_pip_packages:
     - python-vagrant
 vagrant_package: "{{ _vagrant_package[ansible_pkg_mgr] | default(_vagrant_package['src']) }}"
 vagrant_pip_packages: "{{ _vagrant_pip_packages[ansible_os_family] | default(_vagrant_pip_packages['default']) }}"
-vagrant_release_url: https://releases.hashicorp.com/vagrant/{{ vagrant_version }}
+vagrant_release_url: "https://releases.hashicorp.com/vagrant/{{ vagrant_version }}"
