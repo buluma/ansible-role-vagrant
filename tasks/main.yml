@@ -15,7 +15,7 @@
     name: /tmp/{{ vagrant_package | basename }}
     state: present
   when:
-    - ansible_facts.pkg_mgr in [ "yum", "dnf" ]
+    - ansible_facts.pkg_mgr in [ "yum", "dnf", "dnf5" ]
 - name: Install vagrant rpm using zypper
   community.general.zypper:
     disable_gpg_check: true
@@ -37,7 +37,7 @@
     remote_src: true
     src: /tmp/{{ vagrant_package | basename }}
   when:
-    - ansible_facts.pkg_mgr not in [ "apt", "dnf", "yum", "zypper" ]
+    - ansible_facts.pkg_mgr not in [ "apt", "dnf", "dnf5", "yum", "zypper" ]
 - name: Install pip requirements
   ansible.builtin.pip:
     name: "{{ vagrant_pip_packages }}"
