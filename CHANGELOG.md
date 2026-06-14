@@ -1,13 +1,18 @@
 # Changelog
 
-## [Unreleased](https://github.com/buluma/ansible-role-vagrant/tree/HEAD)
+## [26.6.0](https://github.com/buluma/ansible-role-vagrant/tree/26.6.0) (2026-06-14)
 
-[Full Changelog](https://github.com/buluma/ansible-role-vagrant/compare/24.3.31...HEAD)
+[Full Changelog](https://github.com/buluma/ansible-role-vagrant/compare/24.3.31...26.6.0)
 
 **Closed issues:**
 
 - Update action [\#17](https://github.com/buluma/ansible-role-vagrant/issues/17)
 - rebuild action [\#16](https://github.com/buluma/ansible-role-vagrant/issues/16)
+
+**Merged pull requests:**
+
+- Bump ansible/ansible-lint from 26.1.1 to 26.2.0 [\#29](https://github.com/buluma/ansible-role-vagrant/pull/29) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump actions/checkout from 4 to 6 [\#28](https://github.com/buluma/ansible-role-vagrant/pull/28) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [24.3.31](https://github.com/buluma/ansible-role-vagrant/tree/24.3.31) (2024-03-29)
 
