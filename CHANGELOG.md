@@ -32,7 +32,6 @@
 - Bump buluma/molecule-action from 6.0.0 to 6.0.1 [\#22](https://github.com/buluma/ansible-role-vagrant/pull/22) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump buluma/gh-action-auto-merge-dependabot-updates from 1.0.5 to 1.0.8 [\#20](https://github.com/buluma/ansible-role-vagrant/pull/20) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump actions/checkout from 3 to 4 [\#19](https://github.com/buluma/ansible-role-vagrant/pull/19) ([dependabot[bot]](https://github.com/apps/dependabot))
-- Update README.md [\#2](https://github.com/buluma/ansible-role-vagrant/pull/2) ([buluma](https://github.com/buluma))
 
 ## [1.1.0](https://github.com/buluma/ansible-role-vagrant/tree/1.1.0) (2024-01-02)
 
@@ -94,6 +93,10 @@
 ## [1.0.1](https://github.com/buluma/ansible-role-vagrant/tree/1.0.1) (2022-02-06)
 
 [Full Changelog](https://github.com/buluma/ansible-role-vagrant/compare/1.0.0...1.0.1)
+
+**Merged pull requests:**
+
+- Update README.md [\#2](https://github.com/buluma/ansible-role-vagrant/pull/2) ([buluma](https://github.com/buluma))
 
 ## [1.0.0](https://github.com/buluma/ansible-role-vagrant/tree/1.0.0) (2022-02-06)
 
