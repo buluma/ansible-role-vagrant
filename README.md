@@ -75,7 +75,7 @@ The default values for the variables are set in [`defaults/main.yml`](https://gi
 ```yaml
 ---
 vagrant_unarchive_dest: /usr/local/bin
-vagrant_version: "2.2.19"
+vagrant_version: "2.4.9"
 ```
 
 ## [Requirements](#requirements)
